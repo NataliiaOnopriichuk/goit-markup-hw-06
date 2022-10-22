@@ -504,12 +504,31 @@ ul {
     letter-spacing: 0.01em;
 }
 
-.modal-label.textarea {
+.modal-label.comment {
     margin-bottom: 20px;
+}
+
+.modal-textarea {
+    resize: none;
+    height: 120px;
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+.modal-textarea::placeholder {
+    
 }
 
 .modal-text {
     margin-bottom: 4px;
+}
+
+.modal-input {
+    height: 40px;
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
 }
 
 /* features */

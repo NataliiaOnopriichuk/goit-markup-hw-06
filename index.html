@@ -487,28 +487,32 @@
         </button>
         <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
         <form>
-          <div class="modal-input">
+          <div>
             <label class="modal-label">
               <span class="modal-text">Ім'я</span>
-              <input type="text" name="user-name" />
+              <input class="modal-input" type="text" name="user-name" />
             </label>
           </div>
-          <div class="modal-input">
+          <div>
             <label class="modal-label">
               <span class="modal-text">Телефон</span>
-              <input type="tel" name="user-tel" />
+              <input class="modal-input" type="tel" name="user-tel" />
             </label>
           </div>
-          <div class="modal-input">
+          <div>
             <label class="modal-label">
               <span class="modal-text">Пошта</span>
-              <input type="email" name="user-mail" />
+              <input class="modal-input" type="email" name="user-mail" />
             </label>
           </div>
-          <div class="modal-input">
-            <label class="modal-label textarea">
+          <div>
+            <label class="modal-label comment">
               <span class="modal-text">Коментар</span>
-              <textarea name="user-comment" placeholder="Введіть текст">
+              <textarea
+                class="modal-textarea"
+                name="user-comment"
+                placeholder="Введіть текст"
+              >
               </textarea>
             </label>
           </div>
