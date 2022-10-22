@@ -456,19 +456,26 @@
         </div>
         <!-- форма підписатися -->
         <form class="form-field">
-          <label>
-            <p class="footer-title">Підпишіться на розсилку</p>
-            <input class="form-input" type="email" name="sign-up" placeholder="E-mail"/>
-          </label>
-          <button class="btn-sign" type="submit">
-            Підписатися
-            <svg class="btn-icon">
-              <use href="./images/sprite.svg#icon-send"></use>
-            </svg>
-          </button>
+          <span class="footer-title">Підпишіться на розсилку</span>
+          <div>
+            <label>
+              <input
+                class="form-input"
+                type="email"
+                name="sign-up"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="btn-sign" type="submit">
+              <span>Підписатися</span>
+              <svg class="btn-icon">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
         </form>
-      </footer>
       </div>
+    </footer>
     <!-- модалка -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
