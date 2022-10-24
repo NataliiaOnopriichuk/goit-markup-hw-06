@@ -481,11 +481,18 @@ ul {
     cursor: pointer;
 }
 
+.modal-button .modal-icon:hover,
+.modal-button .modal-icon:focus {
+    fill: var(--accent-color);
+    transition: fill 250ms var(--transition-effect);
+}
+
 
 /* modal form */
 .modal-title {
     margin-bottom: 12px;
     
+    font-weight: 700;
     font-size: 20px;
     line-height: calc(23/20);
     text-align: center;
@@ -553,6 +560,20 @@ ul {
     fill: var(--title-text-color);
 }
 
+.modal-input:hover,
+.modal-input:focus,
+.modal-textarea:hover,
+.modal-textarea:focus {
+    border: 1px solid var(--accent-color);
+    transition: border 250ms var(--transition-effect);
+}
+
+.modal-input:hover+ .form-icon,
+.modal-input:focus+ .form-icon {
+    fill: var(--accent-color);
+    transition: fill 250ms var(--transition-effect);
+}
+
 /* checkbox */
 
 .checkbox-dscr {
@@ -579,13 +600,13 @@ ul {
     cursor: pointer;
 }
 
-.modal-checkbox .checkbox {
+.checkbox {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
 }
 
-.modal-checkbox .icon {
+.modal-checkbox .check-icon {
     fill: var(--title-text-color);
 }
 

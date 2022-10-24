@@ -485,7 +485,7 @@
             <use href="./images/sprite.svg#icon-close"></use>
           </svg>
         </button>
-        <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+        <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
         <!-- форма -->
         <form lass="modal-form">
           <label class="modal-label">
@@ -519,12 +519,18 @@
               placeholder="Введіть текст"
             ></textarea>
           </label>
-          <label class="modal-checkbox">
-            <input class="checkbox" type="checkbox" name="checkbox" />
+          <!-- чекбокс -->
+          <input
+            class="checkbox"
+            type="checkbox"
+            name="checkbox"
+            id="checkbox"
+          />
+          <label class="modal-checkbox" for="checkbox">
             <!-- <svg class="icon-check" width="11" height="8">
                 <use href="./images/sprite.svg#icon-check"></use>
               </svg> -->
-            <svg width="16" height="15" class="icon">
+            <svg width="16" height="15" class="check-icon">
               <use href="./images/sprite.svg#icon-box"></use>
             </svg>
             <span class="checkbox-dscr">
